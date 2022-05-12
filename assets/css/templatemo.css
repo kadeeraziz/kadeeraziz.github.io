@@ -195,7 +195,10 @@ footer a.text-light:hover {
 
 
 
-
+#ask-btn:hover {
+    background-color: white;
+    border-color: white;
+}
 
 
 
@@ -224,8 +227,8 @@ footer a.text-light:hover {
 
 
 .btn-outline-primary {
-    color: #0086cc;
-    border-color: #0086cc;
+    color: white;
+    border-color: white;
 }
 .text-mutedd{
       color: #f5f6f7!important;
@@ -248,6 +251,8 @@ footer a.text-light:hover {
     box-shadow: white;
 }
 
+
+
 .btn-outline-primary:active:focus {
     -webkit-box-shadow: 0 0 0 0.25rem rgb(255 255 255);
     box-shadow: 0 0 0 0.25rem rgb(255 255 255);
@@ -258,6 +263,25 @@ footer a.text-light:hover {
     -webkit-box-shadow: 0 0 0 0.25rem rgb(255 255 255);
     box-shadow: 0 0 0 0.25rem rgb(255 255 255);
 }
+
+
+
+
+footer a.text-light:hover {
+    color: white !important;
+    transition-duration: 0.05s;
+    text-decoration: underline white !important;
+    text-decoration-thickness: 5px;
+}
+
+
+
+#ask-btn:hover {
+    background-color: #0086cc;
+    border-color: white;
+}
+
+
 
 
 
